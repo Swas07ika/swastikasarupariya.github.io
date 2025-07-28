@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swastika Sarupariya | Affiliate Marketing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Swastika's Affiliate Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Hi, I'm Swastika!</h2>
+      <p>I help people discover useful products through affiliate marketing. Check out my curated recommendations below!</p>
+    </section>
+
+    <section>
+      <h3>🔗 Affiliate Links</h3>
+      <ul>
+        <li><a href="https://www.amazon.in/your-affiliate-link">Shop my Amazon picks</a></li>
+        <li><a href="http://www.swastika.com/">Visit my Pinterest</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>📄 Download My CV</h3>
+      <a href="Swastika_CV.pdf" download>Click here to download</a>
+    </section>
+  </main>
+</body>
+</html>
+MMmm

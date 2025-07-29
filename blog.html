@@ -3,25 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Swastika's Blog – Amazon Affiliate</title>
+  <title>Swastika's Amazon Picks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px 0;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 16px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .card h2 {
+      font-size: 18px;
+      color: #444;
+    }
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #FF9900;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>Top Product Recommendations</h1>
+  <h1>Swastika's Amazon Picks</h1>
+  <div class="container">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/51ptsmOCaBL._SX679_.jpg" alt="Dot & Key Moisturizer">
+      <h2>Dot & Key Vitamin C + E Moisturizer</h2>
+      <p>Hydrating and lightweight, perfect for daily skincare.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B0B4FZX84H?tag=swastikadeals-21" target="_blank">Buy on Amazon</a>
+    </div>
 
-  <div>
-    <h2>Dot & Key Vitamin C + E Moisturizer</h2>
-    <img src="https://m.media-amazon.com/images/I/51+0cObwAKL._SX679_.jpg" alt="Dot and Key Moisturizer" width="200">
-    <p>Brightens skin and keeps it moisturized. Great for all skin types.</p>
-    <a href="https://www.amazon.in/dp/B09V7YBBRZ?tag=swastikadeals-21" target="_blank">Buy on Amazon</a>
-  </div>
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._SX679_.jpg" alt="boAt Rockerz 450">
+      <h2>boAt Rockerz 450 Wireless Headphones</h2>
+      <p>Long-lasting battery and great sound quality at a budget price.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B07WSRXMS8?tag=swastikadeals-21" target="_blank">Buy on Amazon</a>
+    </div>
 
-  <hr>
-
-  <div>
-    <h2>Fire-Boltt Ninja Call Pro Plus Smart Watch</h2>
-    <img src="https://m.media-amazon.com/images/I/41gvUbcWcqL._SX300_SY300_QL70_FMwebp_.jpg" alt="Fire-Boltt Smartwatch" width="200">
-    <p>Bluetooth calling, 1.83” display, 100+ sports modes.</p>
-    <a href="https://www.amazon.in/dp/B0B4FZX84H?tag=swastikadeals-21" target="_blank">Buy on Amazon</a>
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/41CIgDvfItL._SX300_SY300_QL70_FMwebp_.jpg" alt="Maybelline Lipstick">
+      <h2>Maybelline New York Matte Lipstick</h2>
+      <p>Creamy matte finish with rich color payoff, perfect for any occasion.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B07DRXPPQ3?tag=swastikadeals-21" target="_blank">Buy on Amazon</a>
+    </div>
   </div>
 </body>
 </html>
